@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --primary: #9c9236;
+  --secondary: #132A13;
+  --padding: 15px;
+  --cinza: #405040;
+  --cinza-claro: #dedede;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  font-family: 'Spectral', serif;
+}
+
+.container {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
